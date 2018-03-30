@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/ash2"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:onClick="hideKeyboard">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="You are almost there!Please complete the registration by verifying your account via mobile activation"
+        android:textSize="24dp"
+        android:id="@+id/txtOne"/>
+
+    <Space
+        android:id="@+id/spcVerification1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/txTwo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Mobile Activation"
+        android:textStyle="bold"
+        android:textSize="12dp"/>
+
+    <View
+        android:id="@+id/viewOne"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/black"/>
+
+    <Space
+        android:id="@+id/spcVerification3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/txThree"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Enter the verification code sent to your mobile"
+        android:textSize="12dp"/>
+
+
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Enter code"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:layout_marginTop="25dp"
+        />
+
+    <View
+        android:id="@+id/viewTwo"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/black"/>
+    <Space
+        android:id="@+id/spcVerification2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+            android:id="@+id/btnSubmitVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:background="@drawable/background_homepage"/>
+
+
+
+
+</LinearLayout>

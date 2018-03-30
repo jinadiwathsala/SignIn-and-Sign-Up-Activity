@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SinemaRoo</string>
+    <string name="sign_in">Sign In</string>
+    <string name="reset">reset</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submitsignup">SubmitSignUp</string>
+    <string name="submit">submit</string>
+    <string name="Agree" />
+
+
+</resources>
